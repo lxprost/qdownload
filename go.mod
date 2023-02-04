@@ -1,4 +1,4 @@
-module github.com/nhedlund/qdownload
+module github.com/lxprost/qdownload
 
 go 1.17
 
