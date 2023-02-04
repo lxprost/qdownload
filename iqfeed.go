@@ -427,7 +427,7 @@ func mapTick(iqfeedRow []string, tz *time.Location, config *Config) (outputRow s
 	}
 
 	timestamp = timestamp.In(tz)
-
+	fmt.Println(iqfeedRow)
 	return fmt.Sprintf("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s",
 			timestamp.Format(millisecondTimestampFormat), // datetime
 			iqfeedRow[2],   // last
